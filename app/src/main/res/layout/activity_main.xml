@@ -16,7 +16,7 @@
 <!--        >-->
 
         <ImageView
-            android:layout_width="300dp"
+            android:layout_width="250dp"
             android:layout_height="500dp"
             android:layout_centerHorizontal="true"
             android:src="@drawable/p"
@@ -58,10 +58,11 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="20dp"
         android:lineSpacingExtra="5dp"
-        android:text="World's best online payment app\nMake World cashless with P-Pay\nRegister Now"
+        android:text="World's best online payment application\nMake World cashless with Ocean-Pay\nRegister Now"
         android:textColor="#808080"
         android:textSize="14dp"
         android:id="@+id/desText"
+
         />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
