@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/frmL"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        >-->
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/p"
+            android:id="@+id/logo"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/o"
+           android:id="@+id/logo2"
+            />
+
+
+
+
+
+
+<!--    </FrameLayout>-->
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo2"
+        android:layout_marginLeft="50dp"
+        android:text="Payment"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:id="@+id/textPayment"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPayment"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="5dp"
+        android:text="World's best online payment app\nMake World cashless with P-Pay\nRegister Now"
+        android:textColor="#808080"
+        android:textSize="14dp"
+        android:id="@+id/desText"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:backgroundTint="@color/white"
+        app:srcCompat="@drawable/arrow"
+        android:layout_margin="40dp" />
+
+
+
+</RelativeLayout>
