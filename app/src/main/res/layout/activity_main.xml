@@ -7,73 +7,125 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     tools:context=".MainActivity">
-
-<!--    <FrameLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:id="@+id/frmL"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        >-->
-
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="500dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
             android:layout_centerHorizontal="true"
             android:src="@drawable/p"
             android:id="@+id/logo"
             />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
             android:layout_centerHorizontal="true"
             android:src="@drawable/o"
            android:id="@+id/logo2"
             />
 
-
-
-
-
-
-<!--    </FrameLayout>-->
-
-
-
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo2"
-        android:layout_marginLeft="50dp"
-        android:text="Payment"
-        android:textColor="@color/white"
-        android:textSize="30dp"
-        android:id="@+id/textPayment"
+        android:id="@+id/des"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:text="Welcome"
+        android:textSize="26dp"
+        android:textColor="#808080"
         />
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/des"-->
+<!--        android:id="@+id/des1"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:text="to Ocea"-->
+<!--        android:textSize="16dp"-->
+<!--        android:textColor="#808080"-->
+<!--        />-->
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/des"
+        android:id="@+id/mobile"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Mobile"
+        android:inputType="number"
+        android:textColor="#808080"
+        />
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        android:textColor="#808080"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/circular_button"
+        android:layout_marginLeft="150dp"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:id="@+id/button"
+
+        />
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textPayment"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="20dp"
-        android:lineSpacingExtra="5dp"
-        android:text="World's best online payment application\nMake World cashless with Ocean-Pay\nRegister Now"
+        android:layout_below="@id/button"
+        android:layout_centerHorizontal="true"
+        android:text="New here ?"
+        android:layout_margin="50dp"
+        android:id="@+id/newHere"
         android:textColor="#808080"
-        android:textSize="14dp"
-        android:id="@+id/desText"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#808080"
+        android:src="@drawable/arrow"
+        android:layout_below="@id/button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
 
         />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        app:backgroundTint="@color/white"
-        app:srcCompat="@drawable/arrow"
-        android:layout_margin="40dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
