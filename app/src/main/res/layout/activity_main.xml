@@ -31,8 +31,8 @@
         android:layout_below="@id/logo2"
         android:id="@+id/des"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="50dp"
-        android:text="Welcome"
+        android:layout_marginTop="20dp"
+        android:text="Register"
         android:textSize="26dp"
         android:textColor="#808080"
         />
@@ -49,10 +49,36 @@
 <!--        />-->
 
     <EditText
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/des"
+        android:id="@+id/name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:id="@+id/email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
         android:id="@+id/mobile"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -61,7 +87,7 @@
         android:textColor="#808080"
         />
     <EditText
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:layout_below="@id/mobile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,34 +107,34 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/circular_button"
         android:layout_marginLeft="150dp"
-        android:text="Login"
+        android:text="Sign Up"
         android:textColor="@color/black"
         android:id="@+id/button"
 
         />
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/button"
-        android:layout_centerHorizontal="true"
-        android:text="New here ?"
-        android:layout_margin="50dp"
-        android:id="@+id/newHere"
-        android:textColor="#808080"
-        />
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#808080"
-        android:src="@drawable/arrow"
-        android:layout_below="@id/button"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="30dp"
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/button"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="New here ?"-->
+<!--        android:layout_margin="50dp"-->
+<!--        android:id="@+id/newHere"-->
+<!--        android:textColor="#808080"-->
+<!--        />-->
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="#808080"-->
+<!--        android:src="@drawable/arrow"-->
+<!--        android:layout_below="@id/button"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginTop="30dp"-->
 
-        />
+<!--        />-->
 
 
 
